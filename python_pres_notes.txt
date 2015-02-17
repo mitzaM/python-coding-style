@@ -1,0 +1,41 @@
+PEP stands for Python Enhancement Proposal.
+A PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment.
+The PEP should provide a concise technical specification of the feature and a rationale for the feature.
+
+The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Python code
+Zen of Python: "Readability counts"
+
+Consistency with this style guide is important. Consistency within a project is more important.
+Consistency within one module or function is most important.
+
+
+Indentation
+
+The 4-space rule is optional for continuation lines.
+There should be no arguments on the first line and further indentation should be used to clearly distinguish itself as a continuation line.
+
+# Python regrets: tabs
+Tabs should be used solely to remain consistent with code that is already indented with tabs.
+Python 3 disallows mixing the use of tabs and spaces for indentation.
+For flowing long blocks of text with fewer structural restrictions (docstrings or comments), the line length should be limited to 72 characters.
+# Python regrets: "\"
+Long lines can be broken over multiple lines by wrapping expressions in parentheses.
+These should be used in preference to using a backslash for line continuation.
+# Python regrets: "if ex: st"
+
+The preferred place to break around a binary operator is after the operator, not before it.
+Use blank lines in functions, sparingly, to indicate logical sections.
+
+Wildcard imports should be avoided.
+
+Whitespace
+
+Single space on either side of: assignment, comparison, boolean
+Compound statements are generally discouraged.
+
+Comments
+
+Python tip: You can use multi-line strings as multi-line comments. Unless used as docstrings, they generate no code! :-)
+
+# Python regrets: lambda
+

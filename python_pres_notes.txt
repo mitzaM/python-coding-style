@@ -39,3 +39,7 @@ Python tip: You can use multi-line strings as multi-line comments. Unless used a
 
 # Python regrets: lambda
 
+
+https://www.python.org/dev/peps/pep-0008/
+https://docs.djangoproject.com/en/1.7/internals/contributing/writing-code/coding-style/
+http://docs.pylint.org/tutorial.html
